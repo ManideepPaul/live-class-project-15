@@ -84,7 +84,7 @@
 .cards {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     position: relative;
     z-index: 1;
@@ -108,11 +108,10 @@
 
 .card > p {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
 }
 
-.card > h5 {
-    margin-top: 20px;
+h5 {
     color: #CA1A27;
     font-size: 18px;
 }
@@ -138,9 +137,10 @@
     position: relative;
     z-index: 1;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    margin: 80px 80px 0 80px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 80px 0;
     gap: 20px;
+    justify-items: stretch;
 }
 
 .stat {
@@ -187,3 +187,54 @@
     z-index: 0
 }
 
+/************************ Products Section *****************************/
+
+.products {
+    padding: 0 200px 100px 200px;
+}
+
+.product-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.product-top h2 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.product-top p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.product-top button {
+    background-color: #CA1A27;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.project-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-bottom img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    padding: 60px 20px;
+    background-color: #1e1e1e;
+    margin-bottom: 15px;
+}
+
+.project-bottom h4 {
+    font-size: 24px;
+    margin-bottom: 10px ;
+}
+
+/************************ Contact Section *****************************/
