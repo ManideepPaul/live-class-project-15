@@ -238,3 +238,57 @@ h5 {
 }
 
 /************************ Contact Section *****************************/
+
+.contact {
+    margin: 0 200px 50px 200px;
+}
+
+.contact-top {
+    padding: 70px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+}
+
+.contact-top h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.contact-top p {
+    font-size: 16px;
+}
+.contact-top button {
+    margin: 0 10%;
+    background-color: #CA1A27;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none
+}
+
+.contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+    padding: 80px 0 20px 0;
+}
+
+/************************ Footer Section *****************************/
+
+footer {
+    padding: 50px 200px 50px 200px;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
