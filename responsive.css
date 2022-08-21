@@ -1,0 +1,59 @@
+@media screen and (max-width: 1300px) {
+  /************************ Nav Section *****************************/
+
+  .navbar {
+    padding: 20px 20px 0 20px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  /************************ Hero Section *****************************/
+
+.hero {
+    flex-wrap: wrap;
+}
+
+.hero > img {
+    width: 40vw;
+    margin-bottom: 20px;
+}
+
+.hero > .text {
+    width: 50vw;
+    margin-bottom: 20px;
+}
+
+.hero > .text > h4 {
+    font-size: 22px;
+    color: #CA1A27;
+}
+
+.hero > .text > h1 {
+    font-size: 62px;
+    margin: 5px 0;
+}
+
+.hero > .text > p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.heroBtn {
+    margin-top: 30px;
+    background-color: #CA1A27;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+}
